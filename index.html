@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Kuliner Malang</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="hero">
+  <div class="nav-bar">
+    <div class="nav-logo">
+      <img src="download.png">
+    </div>
+    <div class="nav-links" id="nav-links">
+        <i class="fa fa-close" onclick="closeMenu()" ></i>
+      <ul>
+        <a href="#"><li>HOME</li></a>
+        <a href="about.html"><li>ABOUT</li></a>
+        <a href="https://cookpad.com/id/cari/masakan%20malang"><li>RECIPE</li></a>
+        <a href="login.php"><li>LOGIN</li></a>
+      </ul>
+      
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </div>
+    <div class="banner-title">
+      <h1>Jangan cari <span> makanan <br> yang aneh aneh,</span> kalau anda<br> masih memikirkan <span> berat badan.</span></h1>
+      <a href="menu.html"><button type="button" class="btn">MENU</button></a>
+    </div>
+      <div class="vertical-bar">
+      <div class="search-icon">
+        
+      </div>
+      <div class="social-icons">
+          <a href="https://id-id.facebook.com/groups/kulinerkotamlg/"><i class="fa fa-facebook" ></i></a>
+          <a href="https://www.instagram.com/amazingmalangeats/"><i class="fa fa-instagram" ></i></a>
+          <a href="https://twitter.com/malangkuliner?lang=id"><i class="fa fa-twitter" ></i></a>
+          <a href="https://www.youtube.com/watch?v=2pOiA-pFJjU"><i class="fa fa-youtube"></i></a>
+      </div>
+</div>
+<script>
+    var show = document.getElementById("nav-links");
+    function showMenu(){
+        show.style.right = "0";
+    }
+    function closeMenu(){
+        show.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

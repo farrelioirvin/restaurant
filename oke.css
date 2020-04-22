@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.yoamanta{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(pecel.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+.banner-title{
+    margin: 80px 130px;
+    color: #fff;
+
+}
+.banner-title h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+    text-align: center; 
+}
+.banner-title p{
+    font-size: 25px;
+    text-align: left;
+}
